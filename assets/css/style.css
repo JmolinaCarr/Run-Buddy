@@ -78,6 +78,14 @@
     background-position: center;
     position: relative;
   }
+
+  /* secondary page hero */
+  .hero-secondary {
+      margin: 20px;
+      background-color: white;
+      font-size: 20pns;
+      color: blue;
+  }
   /* Hero Style End */
   
   .hero-form {
