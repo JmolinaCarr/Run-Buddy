@@ -151,9 +151,6 @@
     font-size: 55px;
     color: #fce138;
   }
-  .intro {
-    text-align: center;
-  }
   
   .intro p {
     line-height: 1.7;
@@ -161,20 +158,18 @@
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
   }
   
   .steps {
-    text-align: center;
-    background: #fce138;
-  }
-  
-  .steps div {
-    margin-bottom: 80px;
-  }
-  
-  .steps img {
-    width: 15%;
-    margin: 10px 0;
+    margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #39a6b2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
   }
   
   .steps h3 {
@@ -183,21 +178,38 @@
     margin-top: 10px;
   }
   
-  .steps p {
+  .step-text {
+    flex: 12;
+  }
+  .step-text p {
     color: #39a6b2;
     font-size: 23px;
   }
-  
-  .steps span {
-    font-size: 38px;
+
+  .step-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+  }
+
+  .step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+  }
+
+  .step-img img {
+    max-width: 100%;
   }
   
   .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
   }
   
@@ -210,7 +222,7 @@
   }
   
   .trainers {
-    text-align: center;
+    
   }
   
   .trainer {
@@ -257,7 +269,6 @@
   }
   
   .contact {
-      text-align: center;
       background: #024e76;
   }
 
@@ -289,4 +300,8 @@
       line-height: 1.5;
       font-size: 20px;
       font-style: normal;
+  }
+
+  .flex-row {
+    display: flex;
   }
