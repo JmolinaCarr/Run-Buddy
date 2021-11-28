@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 
 # Run Buddy, Inc
 >>>>>>> feature/hero-text
+=======
+# Run Buddy, Inc
+>>>>>>> feature/mediaqueries
 
 ## Purpose
 A website that offers fitness training services. 
@@ -10,7 +14,7 @@ A website that offers fitness training services.
 * CSS
 
 ## Website
-https://jmolinacarr.github.io/run-buddy/
+https://jmolinacarr.github.io/Run-Buddy/
 
 ## Contribution
 Made with ❤️ by [your name]
