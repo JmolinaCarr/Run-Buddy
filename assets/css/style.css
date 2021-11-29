@@ -25,6 +25,7 @@ header {
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
+  z-index: 9999;
 }
 
 header h1 {
@@ -578,4 +579,16 @@ section {
 .checkbox-wrapper input:checked + label::after, 
 .radio-wrapper input:checked + label::after {
   content: "";
+}
+
+div {
+  --favorite-color: blue;
+  color: var(--favorite-color);
+  box-shadow: 5px 5px 10px var(--favorite-color);
+}
+
+:root {
+  --primary-color: #fce138;
+  --secondary-color: #024e76;
+  --tertiary-color: #39a6b2;
 }
